@@ -39,27 +39,27 @@ The model is deployed using **Flask**, allowing users to input data and get real
 
 ## ⚙️ Tech Stack
 
-* **Python**
-* **Scikit-learn**
-* **Flask**
-* **NumPy**
-* **HTML/CSS**
+* Python
+* Scikit-learn
+* Flask
+* NumPy
+* HTML/CSS
 
 ---
 
 ## 🏗️ Project Structure
-
-```
 credit-risk-model/
 │
 ├── application.py
+├── requirements.txt
+├── Procfile
 ├── model/
-│   ├── model.pkl
-│   └── scaler.pkl
+│ ├── model.pkl
+│ └── scaler.pkl
 ├── templates/
-│   └── index.html
+│ └── index.html
 ├── README.md
-```
+
 
 ---
 
@@ -68,7 +68,6 @@ credit-risk-model/
 * Model: Logistic Regression
 * Hyperparameter Tuning: GridSearchCV
 * Evaluation Metrics:
-
   * Accuracy
   * ROC-AUC Score
   * Confusion Matrix
@@ -78,55 +77,51 @@ credit-risk-model/
 ## ▶️ How to Run Locally
 
 1. Clone the repository
+git clone https://github.com/mayank-1584/credit_risk_model.git
 
-```
-git clone <your-repo-link>
 cd credit-risk-model
-```
+
 
 2. Install dependencies
 
-```
 pip install -r requirements.txt
-```
+
 
 3. Run the Flask app
 
-```
 python application.py
-```
+
 
 4. Open in browser
 
-```
 http://localhost:5000
-```
+
 
 ---
 
 ## 📈 Sample Output
 
-* **Low Risk ✅ (0.23 probability)**
-* **High Risk ⚠️ (0.78 probability)**
+* Low Risk ✅ (0.23 probability)
+* High Risk ⚠️ (0.78 probability)
 
 ---
 
 ## 🎯 Future Improvements
 
 * Deploy on AWS / Render / Railway
-* Add authentication system
-* Improve UI with modern frontend frameworks
-* Use advanced models (XGBoost, Random Forest)
+* Improve UI
+* Add authentication
+* Try advanced models (XGBoost, Random Forest)
 
 ---
 
 ## 👨‍💻 Author
 
-**Mayank Sharma**
-Aspiring Software Engineer & Quant Enthusiast
+Mayank Sharma  
+Aspiring Software Engineer  
 
 ---
 
 ## ⭐ If you found this useful
 
-Give it a star ⭐ and share it!
+Give it a star ⭐
