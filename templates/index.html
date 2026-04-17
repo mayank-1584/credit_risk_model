@@ -1,0 +1,19 @@
+<html>
+<body>
+    <div class="login">
+        <h1>Credit risk Model</h1>
+
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <input type="text" name="income" placeholder="income" required="required" />
+            <input type="text" name="loan_amount" placeholder="loan_amount" required="required" /><br>
+            <input type="text" name="credit_score" placeholder="credit_score" required="required" /><br>
+            <input type="text" name="employment_years" placeholder="employment_years" required="required" /><br>
+            <input type="text" name="debt_to_income" placeholder="debt_to_income" required="required" /><br>
+           <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+    </div>
+    <h2>
+        THE Credit risk iS {{results}}
+    </h2>
+</body>
+</html>
