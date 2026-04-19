@@ -22,7 +22,7 @@ The model is deployed using **Flask**, allowing users to input data and get real
 * Scaled input using StandardScaler
 * Hyperparameter tuning using GridSearchCV
 * Model evaluation using ROC-AUC, Confusion Matrix, Accuracy
-* Model is deployed in AWS ElasticBeanStalk and using codepipeline ti import model from Github
+* Model is deployed in AWS ElasticBeanStalk and using codepipeline - import model from Github
 
 ---
 
