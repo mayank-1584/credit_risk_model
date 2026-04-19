@@ -22,6 +22,7 @@ The model is deployed using **Flask**, allowing users to input data and get real
 * Scaled input using StandardScaler
 * Hyperparameter tuning using GridSearchCV
 * Model evaluation using ROC-AUC, Confusion Matrix, Accuracy
+* Model is deployed in AWS ElasticBeanStalk and using codepipeline ti import model from Github
 
 ---
 
@@ -44,6 +45,7 @@ The model is deployed using **Flask**, allowing users to input data and get real
 * Flask
 * NumPy
 * HTML/CSS
+* AWS ElasticBeanStalk
 
 ---
 
@@ -71,7 +73,7 @@ credit-risk-model/
   * Accuracy
   * ROC-AUC Score
   * Confusion Matrix
-
+* Deployment on AWS
 ---
 
 ## ▶️ How to Run Locally
@@ -106,12 +108,10 @@ http://localhost:5000
 
 ---
 
-## 🎯 Future Improvements
+## 🎯 AWS detail
 
-* Deploy on AWS / Render / Railway
-* Improve UI
-* Add authentication
-* Try advanced models (XGBoost, Random Forest)
+* Deploy on AWS ElasticBeanStalk
+* But due to cost issue the project is not live
 
 ---
 
@@ -121,7 +121,3 @@ Mayank Sharma
 Aspiring Software Engineer  
 
 ---
-
-## ⭐ If you found this useful
-
-Give it a star ⭐
